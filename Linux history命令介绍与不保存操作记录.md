@@ -34,7 +34,7 @@ export HISTTIMEFORMAT="%Y-%m-%d%H:%M:%Swhoami"#这将显示执行命令的用户
 export HISTSIZE=100#history命令的记录数量。  
 The number of commands to remember in the command history.The default value is 500.  
 export HISTFILESIZE=100#记录文件的行数。  
-The maximumnumber of lines contained in the history file.When this variable is assigned avalue,the history file is truncated,ifnecessary,byremovingtheoldestentries,to contain no more than that number of lines.The default value is 500.The history file is also truncated to this size after writing it when an interactive shell exits.  
+The maximum number of lines contained in the history file.When this variable is assigned avalue,the history file is truncated,if necessary,by removing the old estentries,to contain no more than that number of lines.The default value is 500.The history file is also truncated to this size after writing it when an interactive shell exits.  
   如果你想禁用history，可以将HISTSIZE设置为0。  
     
 ## 4.使用HISTFILE更改历史文件名称  
