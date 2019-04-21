@@ -9,7 +9,7 @@ history命令在Linux系统中可以说是为我们提供了很大的便利，�
 988df-h  
 989history  
   以上是截取的部分结果，下面来详细说说其用法：  
-  ##1.命令的用法及参数usage:history[-c][-doffset][n]orhistory-anrw[filename]orhistory-psarg[arg…]   
+  ## 1.命令的用法及参数usage:history[-c][-doffset][n]orhistory-anrw[filename]orhistory-psarg[arg…]   
   参数：  
   n：数字，要列出最近的若干命令列表  
   -c：将目前的shell中的所有history内容全部消除  
