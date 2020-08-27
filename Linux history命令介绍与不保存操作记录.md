@@ -48,7 +48,7 @@ export HISTFILE=/var/log/command_history
 export HISTCONTROL=ignoredups#ignoredups只能剔除连续的重复条目。要清除整个命令历史中的重复条目，可以将HISTCONTROL设置成erasedups  
 export HISTCONTROL=erasedups  
   
-  ##6.使用HISTCONTROL强制history不记住特定的命令  
+## 6.使用HISTCONTROL强制history不记住特定的命令  
   在/etc/bashrc中编辑：  
   
 export HISTIGNORE='ls'#A colonseparated list of patterns used to decide which command lines should be saved on the history list.Each pattern is anchored at the beginning  of the line and must match the complete line   
